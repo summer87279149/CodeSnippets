@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>currentVC</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>/**
+ *          获取当前控制器
+ */
+-(UIViewController *)currentViewController{
+    
+    UIViewController * currVC = nil;
+    UIViewController * Rootvc = self.window.rootViewController ;
+    do {
+        if ([Rootvc isKindOfClass:[UINavigationController class]]) {
+            UINavigationController * nav = (UINavigationController *)Rootvc;
+            UIViewController * v = [nav.viewControllers lastObject];
+            currVC = v;
+            Rootvc = v.presentedViewController;
+            continue;
+        }else if([Rootvc isKindOfClass:[UITabBarController class]]){
+            UITabBarController * tabVC = (UITabBarController *)Rootvc;
+            currVC = tabVC;
+            Rootvc = [tabVC.viewControllers objectAtIndex:tabVC.selectedIndex];
+            continue;
+        }
+    } while (Rootvc!=nil);
+    
+    return currVC;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>B41856E0-2382-44FE-AE28-7F3CA407C4B8</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>获取当前控制器</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
