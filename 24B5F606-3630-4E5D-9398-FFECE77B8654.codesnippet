@@ -3,22 +3,20 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>uidebug</string>
+	<string>tableview1</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>Class debugCls = NSClassFromString(@"UIDebuggingInformationOverlay");
-    [debugCls performSelector:NSSelectorFromString(@"prepareDebuggingOverlay")];</string>
+	<string>@property (nonatomic, strong) UITableView *tableview;
+@property (nonatomic, strong) NSMutableArray *cellArr;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E135F590-0363-4444-A9BB-03A3868B9089</string>
+	<string>24B5F606-3630-4E5D-9398-FFECE77B8654</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>放在delegate里</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>查看试视图结构</string>
+	<string>tableview定义</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
