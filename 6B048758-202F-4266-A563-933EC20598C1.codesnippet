@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>CFRunLoopAddObserver</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string> // 创建观察者
+    CFRunLoopObserverRef observer = CFRunLoopObserverCreateWithHandler(CFAllocatorGetDefault(), kCFRunLoopAllActivities, YES, 0, ^(CFRunLoopObserverRef observer, CFRunLoopActivity activity) {
+        switch (activity) {
+            case kCFRunLoopEntry:
+                NSLog(@" 进入");
+                break;
+            case kCFRunLoopBeforeTimers:
+                NSLog(@"即将处理 Timer ");
+                break;
+            case kCFRunLoopBeforeSources:
+                NSLog(@" 即将处理 Source");
+                break;
+            case kCFRunLoopBeforeWaiting:
+                NSLog(@" 即将进入休眠");
+                break;
+            case kCFRunLoopAfterWaiting:
+                NSLog(@" 休眠刚醒");
+                break;
+            case kCFRunLoopExit:
+                NSLog(@"退出 ");
+                break;
+            default:
+                break;
+        }
+    });
+    
+    // 添加观察者到当前RunLoop中
+    CFRunLoopAddObserver(CFRunLoopGetCurrent(), observer, kCFRunLoopDefaultMode);
+    
+    // 释放observer，最后添加完需要释放掉
+    CFRelease(observer);
+    </string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>6B048758-202F-4266-A563-933EC20598C1</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>CFRunLoopAddObserver</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>创建runloop观察者</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

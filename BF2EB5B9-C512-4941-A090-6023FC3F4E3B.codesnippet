@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>swiftCollection</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>let collection =  UICollectionView(frame: CGRect.init(x: 0, y: 0, width: kScreenWidth, height: kScreenHeight), collectionViewLayout: &lt;#MyLayout()#&gt;)
+        collection.delegate = self
+        collection.dataSource = self
+        collection.alwaysBounceVertical = true
+collection.register(UICollectionViewCell.self, forCellWithReuseIdentifier: &lt;#"dasdsa"#&gt;)
+        self.view.backgroundColor = UIColor.black
+        self.view.addSubview(collection)</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>BF2EB5B9-C512-4941-A090-6023FC3F4E3B</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>swiftCollectionViewCreat</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
