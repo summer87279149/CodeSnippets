@@ -16,7 +16,7 @@
                 NSLog(@" 进入");
                 break;
             case kCFRunLoopBeforeTimers:
-                NSLog(@"即将处理 Timer ");
+                NSLog(@"即 将处理 Timer ");
                 break;
             case kCFRunLoopBeforeSources:
                 NSLog(@" 即将处理 Source");
