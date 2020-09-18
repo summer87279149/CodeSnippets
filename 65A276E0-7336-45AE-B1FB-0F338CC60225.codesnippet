@@ -3,26 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>lazy</string>
+	<string>top</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>-(&lt;#class#&gt;*)&lt;#name#&gt;{
-    if(!&lt;#_name#&gt;){
-        &lt;#_name#&gt; = [];
-    }
-    return &lt;#_name#&gt;;
-}</string>
+	<string>make.top.mas_equalTo(&lt;#9999#&gt;)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>6141E7EE-CADC-4570-80E4-C1B495D327D5</string>
+	<string>65A276E0-7336-45AE-B1FB-0F338CC60225</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>lazy</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>懒加载</string>
+	<string>top</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

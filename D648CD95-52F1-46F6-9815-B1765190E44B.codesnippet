@@ -2,23 +2,33 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>try</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>NSURL *phoneURL = [NSURL URLWithString:[NSString stringWithFormat:@"tel:%@",phoneNum]];
+	<string>@try
+    {
         
-        UIWebView *phoneCallWebView = [[UIWebView alloc] initWithFrame:CGRectZero];
-        [self.contentView addSubview:phoneCallWebView];
+    }
+    @catch(NSException *exception)
+    {
         
-        [phoneCallWebView loadRequest:[NSURLRequest requestWithURL:phoneURL]];</string>
+    }
+    @finally
+    {
+        
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>40E491D8-2082-4A8B-AB15-513D0D189FAF</string>
+	<string>D648CD95-52F1-46F6-9815-B1765190E44B</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>拨号</string>
+	<string>@try@catch</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

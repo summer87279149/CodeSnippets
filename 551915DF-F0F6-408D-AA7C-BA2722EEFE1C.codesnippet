@@ -3,26 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>lazy</string>
+	<string>layoutS</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>-(&lt;#class#&gt;*)&lt;#name#&gt;{
-    if(!&lt;#_name#&gt;){
-        &lt;#_name#&gt; = [];
-    }
-    return &lt;#_name#&gt;;
+	<string>-(void)layoutSubviews{
+    [super layoutSubviews];
+    
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>6141E7EE-CADC-4570-80E4-C1B495D327D5</string>
+	<string>551915DF-F0F6-408D-AA7C-BA2722EEFE1C</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>lazy</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>懒加载</string>
+	<string>layoutSubviews</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

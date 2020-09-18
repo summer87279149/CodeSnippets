@@ -3,26 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>lazy</string>
+	<string>uilabel</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>-(&lt;#class#&gt;*)&lt;#name#&gt;{
-    if(!&lt;#_name#&gt;){
-        &lt;#_name#&gt; = [];
-    }
-    return &lt;#_name#&gt;;
-}</string>
+	<string>&lt;#UILabel *titleLabel#&gt; = [UILabel new];
+&lt;#titleLabel#&gt;.font = [UIFont systemFontOfSize:CSUIConst.&lt;#H3#&gt;];
+&lt;#titleLabel#&gt;.textColor = CSUIConst.&lt;#N6#&gt;;
+[&lt;#self#&gt; addSubview: &lt;#titleLabel#&gt;];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>6141E7EE-CADC-4570-80E4-C1B495D327D5</string>
+	<string>9DFF61B2-5E61-4422-B69E-AEE86EA90AA5</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>lazy</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>懒加载</string>
+	<string>创建uilabel</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

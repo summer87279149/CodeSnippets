@@ -3,26 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>lazy</string>
+	<string></string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>-(&lt;#class#&gt;*)&lt;#name#&gt;{
-    if(!&lt;#_name#&gt;){
-        &lt;#_name#&gt; = [];
-    }
-    return &lt;#_name#&gt;;
-}</string>
+	<string>NSMutableAttributedString *mutS1 = [CSTools smGetParaSpaceString:&lt;#(nonnull NSString *)#&gt; color:&lt;#(nonnull UIColor *)#&gt; fontSize:&lt;#(CGFloat)#&gt; weight:&lt;#(BOOL)#&gt; lineHeightMultiple:&lt;#(CGFloat)#&gt;];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>6141E7EE-CADC-4570-80E4-C1B495D327D5</string>
+	<string>52B6AF30-1B94-41E1-9505-60D6EF8ED877</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>lazy</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>懒加载</string>
+	<string>My Code Snippet</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

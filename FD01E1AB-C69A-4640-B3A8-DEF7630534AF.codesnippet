@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>uilamyl</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>  UILabel *titleLabelDetail = [UILabel new];
+        titleLabelDetail.font = [UIFont systemFontOfSize:CSUIConst.H5];
+//        titleLabelDetail.lineBreakMode = NSLineBreakByWordWrapping;
+        titleLabelDetail.myLeading = titleLabelDetail.myTrailing = CSUIConst.CS_PADDING;
+        titleLabelDetail.widthSize.equalTo(titleLabel.widthSize);
+//        titleLabelDetail.numberOfLines = 0;
+        titleLabelDetail.textColor = CSUIConst.N7;
+        titleLabelDetail.attributedText = [CSTools setLineSpacingWithText:@"音标分为元音和辅音。英语中共有48个音标，其中元音20个，辅音28个。\n元音就像韩语拼音中的韵母,辅音就像汉语拼音中的声母,元音、辅音组合可以拼出任何英语单词。" withSpacing:kAdaptByWidth(12)];
+        titleLabelDetail.wrapContentHeight = YES;
+        [container addSubview: titleLabelDetail];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>FD01E1AB-C69A-4640-B3A8-DEF7630534AF</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>uilamyl</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Mylayout布局UILabel</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

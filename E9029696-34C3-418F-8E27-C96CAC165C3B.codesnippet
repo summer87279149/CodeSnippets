@@ -3,26 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>lazy</string>
+	<string>uistackv</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>-(&lt;#class#&gt;*)&lt;#name#&gt;{
-    if(!&lt;#_name#&gt;){
-        &lt;#_name#&gt; = [];
-    }
-    return &lt;#_name#&gt;;
-}</string>
+	<string>UIStackView *sv = [UIStackView stackViewWithAxis:&lt;#UILayoutConstraint#&gt;
+                                        distribution:&lt;#UIStackViewDistributio#&gt;
+                                           alignment:&lt;#UIStackViewAlignment#&gt;];
+    [&lt;#superview#&gt; addSubview:sv];
+    [sv addArrangedSubview:&lt;#subview#&gt;];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>6141E7EE-CADC-4570-80E4-C1B495D327D5</string>
+	<string>E9029696-34C3-418F-8E27-C96CAC165C3B</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>lazy</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>懒加载</string>
+	<string>UIStackView</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

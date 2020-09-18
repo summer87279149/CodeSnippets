@@ -3,23 +3,30 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string></string>
+	<string>uilabel</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
+		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>NSArray *newArr = [&lt;#oldArr#&gt; valueForKeyPath:@"distinctUnionOfObjects.self"];</string>
+	<string>UILabel *&lt;#label1#&gt; = [CustomerUI getLabelWithTextColor:&lt;#(nonnull UIColor *)#&gt;
+                                 font:&lt;#(CGFloat)#&gt;
+                               isBold:&lt;#(BOOL)#&gt;
+                        textAlignment:&lt;#(NSTextAlignment)#&gt;
+                        lineBreakMode:&lt;#(NSLineBreakMode)#&gt;
+                        numberOfLines:&lt;#(NSInteger)#&gt;];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>6001256E-C93B-4113-AD5E-FBD4A757328B</string>
+	<string>40F69A31-72CD-4E68-93FC-A17A1A0876EB</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>filter</string>
+	<string>创建uilabel</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>数组去重</string>
+	<string>getlabel</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

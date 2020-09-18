@@ -3,29 +3,32 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>cellregist</string>
+	<string>single instance</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-    &lt;#UITableViewCell#&gt;*cell = [tableView dequeueReusableCellWithIdentifier:&lt;#@"StaffManageTableViewCellId"#&gt; forIndexPath:indexPath];
-    cell.selectionStyle = UITableViewCellSelectionStyleNone;
-    if (self.cellArr.count&gt;0) {
-        //        cell.model = self.cellArr[indexPath.row];
-        //        NSLog(@"cell.myCollectionModel=%@",cell.myCollectionModel);
-    }
-    return cell;
+	<string> static &lt;#Class#&gt; *instance =nil;
++(instancetype)shareManager
+{
+   
+   static dispatch_once_t onceToken;
+    dispatch_once(&amp;onceToken, ^{
+    instance= [[&lt;#Class#&gt; alloc] init];
+    });
+    return instance;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>3422B1D2-FBDD-4A16-AF34-5546A40040DA</string>
+	<string>60164E33-EA1F-4BE7-BBE3-92D39A10E64B</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>registCell</string>
+	<string>创建单例</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>cell的regist方式</string>
+	<string>单例</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

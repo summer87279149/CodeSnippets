@@ -10,7 +10,8 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>@property (nonatomic, strong) UITableView *tableview;
-@property (nonatomic, strong) NSMutableArray *cellArr;</string>
+@property (nonatomic, strong) NSMutableArray *cellArr;
+@property (nonatomic, assign) NSInteger currPage;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>24B5F606-3630-4E5D-9398-FFECE77B8654</string>
 	<key>IDECodeSnippetLanguage</key>

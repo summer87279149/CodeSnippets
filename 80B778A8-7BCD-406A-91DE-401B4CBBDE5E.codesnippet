@@ -7,19 +7,27 @@
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>NSArray *newArr = [&lt;#oldArr#&gt; valueForKeyPath:@"distinctUnionOfObjects.self"];</string>
+	<string>+ (NSMutableAttributedString*)justifiedText:(NSString*)str {
+    NSMutableParagraphStyle *par = [[NSMutableParagraphStyle alloc]init];
+    par.alignment = NSTextAlignmentJustified;
+    NSDictionary *dic = @{NSParagraphStyleAttributeName : par, NSUnderlineStyleAttributeName: @(NSUnderlineStyleNone)};
+    NSMutableAttributedString * attributedString = [[NSMutableAttributedString alloc] initWithString:StringNoNull(str) attributes:dic];
+    return attributedString;
+    
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>6001256E-C93B-4113-AD5E-FBD4A757328B</string>
+	<string>80B778A8-7BCD-406A-91DE-401B4CBBDE5E</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>filter</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>数组去重</string>
+	<string>两边对齐</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
