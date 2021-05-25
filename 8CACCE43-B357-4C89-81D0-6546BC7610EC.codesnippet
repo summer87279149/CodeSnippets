@@ -3,23 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>strong</string>
+	<string>testMethodName</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceVariables</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, strong) &lt;#type#&gt; *&lt;#name#&gt;;</string>
+	<string>func test_&lt;#whatToTest#&gt;_&lt;#result#&gt;() {
+    let sut = &lt;#target#&gt;
+    &lt;#XCTAssert#&gt;
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>46251998-352F-46C1-8E1A-B5115762F039</string>
+	<string>8CACCE43-B357-4C89-81D0-6546BC7610EC</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>@property strong</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>添加属性</string>
+	<string>测试用例方法快捷键</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
