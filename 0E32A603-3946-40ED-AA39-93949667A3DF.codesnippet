@@ -3,23 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string></string>
+	<string>letstack</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>NSArray *newArr = [&lt;#oldArr#&gt; valueForKeyPath:@"distinctUnionOfObjects.self"];</string>
+	<string>lazy var stackView: UIStackView = {
+        let stackView  = UIStackView(arrangedSubviews: [],
+                                     axis: .horizontal,
+                                     spacing: _6,
+                                     alignment: .center,
+                                     distribution: .equalSpacing)
+        return stackView
+    }()</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>6001256E-C93B-4113-AD5E-FBD4A757328B</string>
+	<string>0E32A603-3946-40ED-AA39-93949667A3DF</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>filter</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>数组去重</string>
+	<string>stackView</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

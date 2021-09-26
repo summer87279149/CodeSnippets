@@ -3,23 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>injected</string>
+	<string></string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>-(void)injected{
-    NSLog(@"injected"); 
-}</string>
+	<string>let &lt;#name#&gt;:&lt;#type#&gt; = {
+        let &lt;#name#&gt; = &lt;#type#&gt;()
+        return &lt;#name#&gt;
+    }()</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>3B420BB6-8315-47A1-A2ED-6213BBFD9F06</string>
+	<string>74826850-BAB5-4898-8B80-5E4B8D534983</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>injected</string>
+	<string>My Code Snippet</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

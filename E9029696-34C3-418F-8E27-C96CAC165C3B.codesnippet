@@ -6,15 +6,15 @@
 	<string>uistackv</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>UIStackView *sv = [UIStackView stackViewWithAxis:&lt;#UILayoutConstraint#&gt;
-                                        distribution:&lt;#UIStackViewDistributio#&gt;
-                                           alignment:&lt;#UIStackViewAlignment#&gt;];
-    [&lt;#superview#&gt; addSubview:sv];
-    [sv addArrangedSubview:&lt;#subview#&gt;];</string>
+                                    distribution:&lt;#UIStackViewDistributio#&gt;
+                                         spacing:kAdaptByWidth(&lt;#w#&gt;)
+                                       alignment:&lt;#UIStackViewAlignment#&gt;];
+[&lt;#superview#&gt; addSubview:sv];
+[sv addArrangedSubview:&lt;#subview#&gt;];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>E9029696-34C3-418F-8E27-C96CAC165C3B</string>
 	<key>IDECodeSnippetLanguage</key>

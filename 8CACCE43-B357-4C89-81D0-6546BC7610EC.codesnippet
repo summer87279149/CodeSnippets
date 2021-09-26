@@ -3,29 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>uista</string>
+	<string>testMethodName</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>UIStackView *sv = [[UIStackView alloc]init];
-    sv.axis = &lt;#UILayoutConstraintAxi#&gt;;
-    sv.distribution = &lt;#UIStackViewDistributio#&gt;;
-    sv.alignment = &lt;#UIStackViewAlignment#&gt;
-    [&lt;#superview#&gt; addSubview:sv];
-    [sv addArrangedSubview:&lt;#subview#&gt;];</string>
+	<string>func test_&lt;#whatToTest#&gt;_&lt;#result#&gt;() {
+    let sut = &lt;#target#&gt;
+    &lt;#XCTAssert#&gt;
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>1F0A67F8-2243-4886-BE4A-72A18477BDD1</string>
+	<string>8CACCE43-B357-4C89-81D0-6546BC7610EC</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>UIStackView</string>
+	<string>测试用例方法快捷键</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

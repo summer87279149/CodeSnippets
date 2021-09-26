@@ -3,22 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>@block</string>
+	<string>letc</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, copy) &lt;#blockType#&gt; &lt;#blockNameNo*#&gt;;
-</string>
+	<string>lazy var &lt;#constant name#&gt;: &lt;#type name#&gt; = {
+        let &lt;#constant name#&gt; = &lt;#type name#&gt;
+        return &lt;#value#&gt;
+    }()</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>3C025AB3-D331-4098-A26A-EA25FD0A5497</string>
+	<string>320BF585-804A-4D71-8732-D608C32E6AA3</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>@block</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>@block</string>
+	<string>My Code Snippet</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -10,10 +10,10 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>-(&lt;#class#&gt;*)&lt;#name#&gt;{
-    if(!&lt;#_name#&gt;){
-        &lt;#_name#&gt; = [];
+    if(!_&lt;#name#&gt;){
+        _&lt;#name#&gt; = [&lt;#class#&gt; new];
     }
-    return &lt;#_name#&gt;;
+    return _&lt;#name#&gt;;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>6141E7EE-CADC-4570-80E4-C1B495D327D5</string>

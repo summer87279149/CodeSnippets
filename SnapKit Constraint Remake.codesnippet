@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>tableview1</string>
+	<string>snpremake</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, strong) UITableView *tableview;
-@property (nonatomic, strong) NSMutableArray *cellArr;
-@property (nonatomic, assign) NSInteger currPage;</string>
+	<string>&lt;#view#&gt;.snp.remakeConstraints { make in
+    &lt;#code#&gt;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>24B5F606-3630-4E5D-9398-FFECE77B8654</string>
+	<string>FD093546-D614-4311-82C3-E8FE842F62B1</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>tableview定义</string>
+	<string>SnapKit Constraint Remake</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
