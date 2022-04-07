@@ -3,24 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>weak</string>
+	<string>injec</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[weak self] in
-            guard let `self` = self else {
-                return
-            }</string>
+	<string>        @objc func injected()  {
+#if DEBUG            
+            self.viewDidLoad()
+#endif
+        }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>846392C5-2E67-45C4-BD57-9C68F487F607</string>
+	<string>C9F805C0-8EC3-4D27-88F4-4C46FEAC5F6B</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>WeakSelf</string>
+	<string>injection</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

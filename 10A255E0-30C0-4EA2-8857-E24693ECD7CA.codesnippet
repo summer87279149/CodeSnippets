@@ -3,24 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>weak</string>
+	<string>lazy</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[weak self] in
-            guard let `self` = self else {
-                return
-            }</string>
+	<string>    lazy var &lt;#property name#&gt;: &lt;#Type#&gt; = {
+        let view = &lt;#Type#&gt;
+        return view
+    }()
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>846392C5-2E67-45C4-BD57-9C68F487F607</string>
+	<string>10A255E0-30C0-4EA2-8857-E24693ECD7CA</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>WeakSelf</string>
+	<string>Lazy</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

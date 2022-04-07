@@ -15,8 +15,8 @@
 
             let target = Builder(environment: self._environment,
                                      param: param)
-            let provider = DashProvider&lt;Builder&gt;()
-            NetworkAdapter&lt;Builder, DashProvider&lt;Builder&gt;&gt;().request(provider, target)
+            let provider = DashNetworkProvider&lt;Builder&gt;()
+            DashNetworkAdapter&lt;Builder, DashNetworkProvider&lt;Builder&gt;&gt;().request(provider, target)
                 .subscribe { result in
                     single(.success(result.&lt;#response#&gt;))
                 } onFailure: { err in

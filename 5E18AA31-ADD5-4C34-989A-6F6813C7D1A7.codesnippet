@@ -3,24 +3,35 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>weak</string>
+	<string>pre</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[weak self] in
-            guard let `self` = self else {
-                return
-            }</string>
+	<string>#if canImport(SwiftUI) &amp;&amp; DEBUG
+import SwiftUI
+
+@available(iOS 13.0, *)
+struct &lt;#HorizontalButtonArea#&gt;Preview: PreviewProvider {
+    static var previews: some SwiftUI.View {
+        RandomColorBackground {
+            ViewPreview {
+                &lt;#HorizontalButtonArea#&gt;()
+            }
+            .frame(height: nil, alignment: .center)
+        }
+    }
+}
+#endif</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>846392C5-2E67-45C4-BD57-9C68F487F607</string>
+	<string>5E18AA31-ADD5-4C34-989A-6F6813C7D1A7</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>WeakSelf</string>
+	<string>Preview</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

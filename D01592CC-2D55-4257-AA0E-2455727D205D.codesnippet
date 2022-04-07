@@ -3,24 +3,29 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>weak</string>
+	<string>inject</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[weak self] in
-            guard let `self` = self else {
-                return
-            }</string>
+	<string>#if DEBUG
+        NotificationCenter.default.addObserver(self, selector: #selector(hotReloadingUI), name: Notification.Name("INJECTION_BUNDLE_NOTIFICATION"), object: nil)
+#endif
+    
+#if DEBUG
+    @objc func hotReloadingUI() {
+        self.viewDidLoad()
+    }
+#endif</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>846392C5-2E67-45C4-BD57-9C68F487F607</string>
+	<string>D01592CC-2D55-4257-AA0E-2455727D205D</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>WeakSelf</string>
+	<string>injection</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
