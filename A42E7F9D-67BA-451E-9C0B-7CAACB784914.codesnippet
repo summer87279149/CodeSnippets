@@ -3,24 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>single</string>
+	<string>label</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>typealias Builder = &lt;#RequestBuilder#&gt;
-let target = Builder(environment: self._environment, param: param)
-let provider = DashNetworkProvider&lt;Builder&gt;()
-return DashNetworkAdapter&lt;Builder, DashNetworkProvider&lt;Builder&gt;&gt;().request(provider, target)</string>
+	<string>lazy var title: UILabel = {
+		let view = IncomeLabel(text: &lt;#T##String?#&gt;,
+							   type: &lt;#T##IncomeLabelType#&gt;,
+							   color: &lt;#T##UIColor#&gt;)
+		return view
+	}()</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>5EB86D8B-A338-4D28-BB18-039636B3BCEC</string>
+	<string>A42E7F9D-67BA-451E-9C0B-7CAACB784914</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Create Single</string>
+	<string>Income label</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

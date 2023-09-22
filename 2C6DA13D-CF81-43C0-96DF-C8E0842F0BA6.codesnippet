@@ -3,24 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>single</string>
+	<string></string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>typealias Builder = &lt;#RequestBuilder#&gt;
-let target = Builder(environment: self._environment, param: param)
-let provider = DashNetworkProvider&lt;Builder&gt;()
-return DashNetworkAdapter&lt;Builder, DashNetworkProvider&lt;Builder&gt;&gt;().request(provider, target)</string>
+	<string>ILPSectionShouldExpandNotification</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>5EB86D8B-A338-4D28-BB18-039636B3BCEC</string>
+	<string>2C6DA13D-CF81-43C0-96DF-C8E0842F0BA6</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Create Single</string>
+	<string>My Code Snippet</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

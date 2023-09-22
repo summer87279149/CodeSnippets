@@ -3,24 +3,37 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>single</string>
+	<string>storec</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>typealias Builder = &lt;#RequestBuilder#&gt;
-let target = Builder(environment: self._environment, param: param)
-let provider = DashNetworkProvider&lt;Builder&gt;()
-return DashNetworkAdapter&lt;Builder, DashNetworkProvider&lt;Builder&gt;&gt;().request(provider, target)</string>
+	<string>import SwiftUI
+import ComposableArchitecture
+
+
+enum &lt;#Home#&gt;Action {
+    
+    
+}
+
+struct &lt;#Home#&gt;State: Equatable {
+    
+}
+
+struct &lt;#Home#&gt;Environment {
+    var &lt;#Home#&gt;Repo: &lt;#Home#&gt;RepoType
+}
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>5EB86D8B-A338-4D28-BB18-039636B3BCEC</string>
+	<string>BD0AAAEE-0362-403E-B7F4-ADB20F2B70AF</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Create Single</string>
+	<string>Create TCA store</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

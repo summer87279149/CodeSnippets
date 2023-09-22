@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>UIConstants.Colors.black</string>
+	<string>UIGlobal.shared.colors.&lt;#color#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>C625DAA1-B9FE-4417-9884-46B5A4232679</string>
 	<key>IDECodeSnippetLanguage</key>
