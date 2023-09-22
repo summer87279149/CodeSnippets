@@ -3,30 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>cla</string>
+	<string>injec</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>import UIKit
-class &lt;#name#&gt;: NiblessView{
-    init() {
-        super.init(frame: .zero)
-        setupSubviews()
-    }
-    private func setupSubviews() {
-        
-    }
-}</string>
+	<string>        @objc func injected()  {
+#if DEBUG            
+            self.viewDidLoad()
+#endif
+        }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>430260C1-2ABD-4203-887A-71EE30E4FD63</string>
+	<string>C9F805C0-8EC3-4D27-88F4-4C46FEAC5F6B</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Create UIView</string>
+	<string>injection</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,30 +3,37 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>cla</string>
+	<string>storec</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>import UIKit
-class &lt;#name#&gt;: NiblessView{
-    init() {
-        super.init(frame: .zero)
-        setupSubviews()
-    }
-    private func setupSubviews() {
-        
-    }
-}</string>
+	<string>import SwiftUI
+import ComposableArchitecture
+
+
+enum &lt;#Home#&gt;Action {
+    
+    
+}
+
+struct &lt;#Home#&gt;State: Equatable {
+    
+}
+
+struct &lt;#Home#&gt;Environment {
+    var &lt;#Home#&gt;Repo: &lt;#Home#&gt;RepoType
+}
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>430260C1-2ABD-4203-887A-71EE30E4FD63</string>
+	<string>BD0AAAEE-0362-403E-B7F4-ADB20F2B70AF</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Create UIView</string>
+	<string>Create TCA store</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

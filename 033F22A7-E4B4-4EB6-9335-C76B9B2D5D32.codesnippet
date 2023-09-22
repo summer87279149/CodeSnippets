@@ -3,30 +3,30 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>cla</string>
+	<string>push</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>import UIKit
-class &lt;#name#&gt;: NiblessView{
-    init() {
-        super.init(frame: .zero)
-        setupSubviews()
-    }
-    private func setupSubviews() {
-        
-    }
-}</string>
+	<string> &lt;#investSingnUpCoordinator#&gt; = dependencyProvider.&lt;#getInvestSingnUpVCStep2Stage2VC#&gt;(input: &lt;#T##InvestSingnUpVCStep2Stage2Input#&gt;)
+
+        guard let nextVC = &lt;#investSingnUpCoordinator#&gt;?.rootVC else {
+            return
+        }
+
+        &lt;#investSingnUpCoordinator#&gt;?.rootVCDidDismissCallback = { [weak self] in
+            self?.investSingnUpCoordinator = nil
+        }
+        navigationDelegate?.push(viewController: nextVC, fromUICoordinator: self)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>430260C1-2ABD-4203-887A-71EE30E4FD63</string>
+	<string>033F22A7-E4B4-4EB6-9335-C76B9B2D5D32</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Create UIView</string>
+	<string>push</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

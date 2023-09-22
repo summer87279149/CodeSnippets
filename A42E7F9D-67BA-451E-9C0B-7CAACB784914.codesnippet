@@ -3,30 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>cla</string>
+	<string>label</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>import UIKit
-class &lt;#name#&gt;: NiblessView{
-    init() {
-        super.init(frame: .zero)
-        setupSubviews()
-    }
-    private func setupSubviews() {
-        
-    }
-}</string>
+	<string>lazy var title: UILabel = {
+		let view = IncomeLabel(text: &lt;#T##String?#&gt;,
+							   type: &lt;#T##IncomeLabelType#&gt;,
+							   color: &lt;#T##UIColor#&gt;)
+		return view
+	}()</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>430260C1-2ABD-4203-887A-71EE30E4FD63</string>
+	<string>A42E7F9D-67BA-451E-9C0B-7CAACB784914</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Create UIView</string>
+	<string>Income label</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
